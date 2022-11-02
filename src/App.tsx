@@ -1,5 +1,6 @@
 import UseStateComponent from "./UseState";
-import UseEffectComponent from "./useEffect";
+import UseEffectComponent from "./UseEffect";
+import UseContextComponent from "./UseContext";
 
 import "./App.css";
 
@@ -11,6 +12,8 @@ function App() {
 				<UseStateComponent />
 				<h1>Use Effect Component</h1>
 				<UseEffectComponent />
+				<h1>Use Context Component</h1>
+				<UseContextComponent />
 			</div>
 		</div>
 	);
